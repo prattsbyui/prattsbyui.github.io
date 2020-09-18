@@ -1,31 +1,36 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-<meta charset="utf-8">
-<title>Number of Evens</title>
-<script>
-
-function doNumEvens(){
-    var list = [ 12, -4, 8, 15, 17, -5, 20, 11 ]; 
-    var answer = countEvens(list);
-
-    document.getElementById('outputDiv').innerHTML = answer;
-}
-
-function countEvens(list) {
-  var even = 0;
-    for (var i = 0;  i < list.length;  ++i) {
-        if (list[i] % 2 === 0) {
-       even = even + 1;
-        }
-}
-    return even
-}
-</script>
+    <title>Portal Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="Assignment portal for WDD230">
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-<h1> Number of Evens</h1> 
-<button type="button" onclick="doNumEvens()">Process</button>
-<div id="outputDiv"></div>
+    <header>
+        <h1>Sean Pratt<img src="pratt.jpeg" alt="photo of Pierre"></h1>
+
+    </header>
+    <main>
+
+        <h2>WDD 230: Assignment Portal</h2>
+        <nav>
+            <ul>
+                <li>Lesson 02: <a href="index.html">Assignment Link</a></li>
+                <li>Lesson 03: <a href="index.html">Assignment Link</a></li>
+                <li>Lesson 04: <a href="index.html">Link | </a><a href="index.html">Link</a></li>
+            </ul>
+        </nav>
+
+    </main>
+    <footer>
+        &copy; <span id="currentYear"></span> | Sean Pratt | Texas | <a href="https://www.byui.edu/online">BYUI Online
+            Learning</a>
+        <div>Last Updated: <span id="updated"></span></div>
+    </footer>
+    <script src='date.js'></script>
 </body>
+
 </html>
