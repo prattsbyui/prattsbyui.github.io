@@ -1,0 +1,21 @@
+body {
+    margin: auto;
+    max-width: 100%;
+  }
+  img{
+      width: 200px;
+  }
+  header {
+    background-color: rgb(126, 30, 6);
+    color: rgb(221, 207, 11);
+    text-align: center;
+    border-radius: 1ch;
+    padding: 5px;
+  
+  }
+  .home-grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
