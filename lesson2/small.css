@@ -1,104 +1,117 @@
 main {
-	max-width: 967px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
+    max-width: 967px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
     font-size: 0.8rem;
 
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-  }
-  body {
-      margin: auto;
-      max-width: 100%;
-    }
-    img {
-  max-width: 350px;
-  padding-top: 5px;
- 
-    }
+}
 
-  h1{
+body {
+    margin: auto;
+    max-width: 100%;
+}
+
+img {
+    max-width: 350px;
+    padding-top: 5px;
+
+}
+
+h1 {
     font-size: 50pt;
-  }
-  h2 {
+}
+
+h2 {
     border-bottom: 1px solid;
     font-size: 30px;
     color: rgb(221, 207, 11);
-    
-  }
-  h3{
+
+}
+
+h3 {
     color: rgb(221, 207, 11);
-  }
-  p {
+}
+
+p {
     font-family: Arial, Helvetica, sans-serif;
-   text-align: center;
+    text-align: center;
     color: rgb(221, 207, 11);
-    
-  }
-  div .proximity{
+
+}
+
+div .proximity {
     padding: 5px;
-    background-color:  black;
+    background-color: black;
     border-radius: 2em;
     border-color: grey;
     border-style: ridge;
     color: white;
-  }
-  div .alignment{
+}
+
+div .alignment {
     padding: 5px;
-    background-color:  black;
+    background-color: black;
     border-radius: 2em;
     border-color: grey;
     border-style: ridge;
     color: white;
-  } 
-  div .repitition{
+}
+
+div .repitition {
     padding: 5px;
-    background-color:  black;
+    background-color: black;
     border-radius: 2em;
     border-color: grey;
     border-style: ridge;
     color: white;
-  }
-  
-  
-  div a{
+}
+
+
+div a {
     color: aliceblue;
-     
-  }
-  div a:hover{
+
+}
+
+div a:hover {
     color: rgb(208, 221, 18);
-    
-  }
-    header {
-      background-color: rgb(126, 30, 6);
-      color: rgb(221, 207, 11);
-      text-align: center;
-      border-radius: 1ch;
-      padding: 5px;
-    
-    }
-    footer {
-      background-color: rgb(126, 30, 6);
-      color: white;
-      text-align: center;
-      border-radius: 1em;
-    
-    }
-    
-    footer a {
-      color: white;
-    
-    }
-    
-    footer a:hover {
-      color: rgb(221, 207, 11);
-    
-    }
-    
-    footer div {
-      color: rgb(221, 207, 11);
-    }
-  
+
+}
+
+header {
+    background-color: rgb(126, 30, 6);
+    color: rgb(221, 207, 11);
+    text-align: center;
+    border-radius: 1ch;
+    padding: 5px;
+
+}
+
+footer {
+    background-color: rgb(126, 30, 6);
+    color: white;
+    text-align: center;
+    border-radius: 1em;
+
+}
+
+footer a {
+    color: white;
+
+}
+
+footer a:hover {
+    color: rgb(221, 207, 11);
+
+}
+
+footer div {
+    color: rgb(221, 207, 11);
+}

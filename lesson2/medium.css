@@ -1,15 +1,15 @@
 @media only screen and (min-width: 37.5em) {
-    .home-grid{
+    .home-grid {
         padding-top: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
-      }
-   
-  
+    }
+
+
     img {
         max-width: 100%;
         padding-top: 5px;
-          }
+    }
 
-  }
+}
