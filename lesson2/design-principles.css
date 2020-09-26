@@ -1,10 +1,39 @@
 body {
     margin: auto;
-    max-width: 100%;
+    max-width: 1000px;
   }
-  img{
-      width: 200px;
+  img {
+max-width: 100%;
   }
+main{
+  margin: auto;
+  width: 100%;
+}
+
+div .proximity{
+  padding: 5px;
+  background-color: rgb(236, 227, 216);
+  border-radius: 1em;
+  border-style: ridge;
+}
+div .alignment{
+  padding: 5px;
+  background-color: rgb(236, 227, 216);
+  border-radius: 1em;
+  border-style: ridge;
+} 
+div .repitition{
+  padding: 5px;
+  background-color: rgb(51, 50, 70);
+  border-radius: 1em;
+  border-style: ridge;
+}
+div .contrast{
+  padding: 5px;
+  background-color: rgb(236, 227, 216);
+  border-radius: 1em;
+  border-style: ridge;
+}
   header {
     background-color: rgb(126, 30, 6);
     color: rgb(221, 207, 11);
@@ -17,5 +46,26 @@ body {
     padding-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 2em;
+  }
+  footer {
+    background-color: rgb(126, 30, 6);
+    color: white;
+    text-align: center;
+    border-radius: 1em;
+  
+  }
+  
+  footer a {
+    color: white;
+  
+  }
+  
+  footer a:hover {
+    color: rgb(221, 207, 11);
+  
+  }
+  
+  footer div {
+    color: rgb(221, 207, 11);
   }
