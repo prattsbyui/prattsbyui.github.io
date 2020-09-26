@@ -3,7 +3,8 @@ main {
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+    font-size: 0.8rem;
+
 }
 h1,h2,h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,8 +15,9 @@ h1,h2,h3{
       max-width: 100%;
     }
     img {
-  max-width: 250px;
+  max-width: 350px;
   padding-top: 5px;
+ 
     }
 
   h1{
