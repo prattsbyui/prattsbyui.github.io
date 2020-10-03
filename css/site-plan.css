@@ -52,6 +52,8 @@ nav a:hover {
   }
   
   main {
+    display: grid;
+    grid-template-columns: 1fr;
     font-size: 20px;
     padding-bottom: 20px;
     font-style: italic;
