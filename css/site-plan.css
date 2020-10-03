@@ -1,13 +1,18 @@
+header,
+nav,
+main,
+footer,
 body {
     margin: auto;
     max-width: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   header {
-    background-color: rgb(126, 30, 6);
-    color: rgb(221, 207, 11);
+    background-color:#383a3b;
+    color:rgb(255, 230, 5);
     text-align: center;
-    border-radius: 1ch;
+    border-radius: 1em;
   
   }
   .logo{
@@ -16,9 +21,12 @@ body {
   
   }
   nav {
-	background-color: #36454f;
-	text-align: center;
-	box-shadow: 0 2px 15px gray;
+  background-color: #383a3b;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 0 2px 15px rgb(211, 208, 208);
 }
 nav ul {
 	list-style-type: none;
@@ -36,7 +44,7 @@ nav ul li a {
 }
 nav a:hover {
 	background-color: #bbb;
-	color: #36454f;
+	color: rgb(70, 70, 248);
 }
 .active {
 	color: yellow;
@@ -44,19 +52,23 @@ nav a:hover {
   h1 {
     padding: 10px;
     font-size: 50px;
+    border-bottom: 10px solid  #bbb;
   }
   
   h2 {
     border-bottom: 10px solid;
     font-size: 30px;
   }
-  
+  p {
+    font-family: cursive;
+    font-size: 30pt;
+  }
   main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 20px;
     padding-bottom: 20px;
-    font-style: italic;
+
   }
   
   main a {
@@ -64,7 +76,7 @@ nav a:hover {
   }
   
   main a:hover {
-    color: aqua;
+    color: rgb(70, 70, 248);
   }
   
   footer {
