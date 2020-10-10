@@ -1,5 +1,5 @@
 document.getElementById("updated").innerHTML = document.lastModified
-document.getElementById("currentYear").textContent = new Date().getFullYear();
+
 
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
