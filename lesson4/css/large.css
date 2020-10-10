@@ -2,13 +2,17 @@
 	.navigation {
 		display: flex;
 	}
+
 	.navigation li {
-		display: block; /* change state in small view */
+		display: block;
+		/* change state in small view */
 		flex: 1 1 100%;
 	}
+
 	.navigation a {
 		text-align: center;
 	}
+
 	.navigation li:first-child {
 		display: none;
 	}
