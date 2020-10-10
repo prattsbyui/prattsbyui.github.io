@@ -30,8 +30,8 @@ nav {
 .navigation {
 	list-style: none;
 	text-align: center;
-  padding: 5px;
-  margin: 0;
+  padding: 0;
+
 }
 .navigation li:first-child {
 	display: block;
@@ -44,14 +44,13 @@ nav {
 	display: block;
 	padding: 0.75rem;
 	text-align: center;
-	text-decoration: overline #272727;
+	text-decoration: none;
 	color: #272727;
 	font-weight: 700;
 }
 .navigation a:hover {
   
   color: white;
-  text-decoration: overline white;
 	background-color: black;
 }
 .responsive li {
@@ -75,7 +74,6 @@ nav {
     margin: auto;
 text-align: center;
     display: grid;
-    grid-template-columns: 1fr;
     font-size: 20px;
     padding-bottom: 20px;
 
@@ -85,8 +83,8 @@ text-align: center;
     margin: 10px auto;
     padding: 15px;
     max-width: 700px;
-    background-color: #383a3b;
-    color: rgb(255, 230, 5);
+    background-color: #272727;
+    color: #ffde0c;
     border-bottom: 10px solid #dadada;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -99,7 +97,7 @@ text-align: center;
   footer {
     margin: auto;
     max-width: 760px;
-    background-color: #383a3b;
+    background-color: #272727;
     color: white;
     text-align: center;
     border-radius: 1em;
@@ -112,10 +110,10 @@ text-align: center;
   }
   
   footer a:hover {
-    color: rgb(221, 207, 11);
+    color: #ffde0c;
   
   }
   
   footer div {
-    color: rgb(221, 207, 11);
+    color: #ffde0c;
   }
