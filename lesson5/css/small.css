@@ -44,7 +44,10 @@ nav {
 .navigation li {
   display: none;
 }
-
+.navigation li a.active {
+  color: #ffde0c;
+  background-color: #272727;
+}
 .navigation a {
   font-size: 20pt;
   display: block;
