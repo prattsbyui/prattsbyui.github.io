@@ -1,6 +1,4 @@
 body {
-
-
   max-width: 100%;
   font-family: 'Secular One', sans-serif;
 }
@@ -16,7 +14,7 @@ header {
   display: flex;
   background: linear-gradient(135deg, #626262, #272727);
   color: #ffde0c;
-  text-align: left;
+
 }
 
 .logo {
@@ -25,13 +23,21 @@ header {
   align-items: flex-start;
 
 }
-
+.name-motto{
+  font-size: 1.3rem;
+  text-align: left;
+}
+.name-motto p{
+  font-size: 1rem;
+  text-align: left;
+}
 img {
   display: flex;
   width: 100%;
 }
 
 section {
+
   padding: 0;
   margin: 0;
 }
@@ -84,7 +90,8 @@ nav {
 
 h1 {
   margin: 0;
-  padding-top: 2em;
+
+  padding-top: 1em;
 
 }
 
