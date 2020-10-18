@@ -18,8 +18,13 @@
 </head>
 
 <body>
+
+    <span id="friday">Saturday = Preston Pancakes in the Park!
+        <br>9:00 a.m. Saturday at the city park pavilion.</span>
+
     <header>
-        <a href="/lesson5/preston-5.html"><img src="/lesson5/images/site-icon.png" alt="rain or shine logo"></a>
+        <a href="/lesson5/preston-5.html"><img class="logo" src="/lesson5/images/site-icon.png"
+                alt="rain or shine logo"></a>
         <section class="name-motto">
             <h1>Rain/Shine</h1>
             <p>Get the job done</p>
@@ -38,14 +43,70 @@
         </ul>
     </nav>
     <main>
-        <section class="contentbox">
 
-            <h2>Preston Town</h2>
-            <div class="content">HERO WITH WEATHER SUMMARY</div>
-            <div class="content">FIVE DAY FORECAST</div>
-            <div class="content">ARTICLE</div>
-            <div class="content">CONTACT INFORMAITON</div>
-        </section>
+
+        <h1>Preston Town</h1>
+        <div class="herodiv">
+            <img src="/lesson5/images/preston-hero.jpg">
+            <section class="stats">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currentWeather">Sunny</span></p>
+                <p>High: <span id="highTemp">76°F</span></p>
+                <p>Wind Chill: <span id="shots">°F</span></p>
+                <p>Humidity: <span id="shots">69°F</span></p>
+                <p>Wind Speed: <span id="shots">5 mph</span></p>
+            </section>
+        </div>
+        <div class="fiveDayContainer">
+            <h1>5 Day Forecast</h1>
+            <div class="fiveDayForecast">
+                <div class="first">
+                    <h2>Wed</h2>
+                    <img src="/lesson5/images/partly.png" alt="partly-cloudy">
+                    <p>76°F</p>
+                </div>
+                <div>
+                    <h2>Thur</h2>
+                    <img src="/lesson5/images/sunny.png" alt="sunny">
+                    <p>67°F</p>
+                </div>
+                <div>
+                    <h2>Fri</h2>
+                    <img src="/lesson5/images/rain.png" alt="rainy">
+                    <p>53°F</p>
+                </div>
+                <div>
+                    <h2>Sat</h2>
+                    <img src="/lesson5/images/snow.png" alt="snowy">
+                    <p>54°F</p>
+                </div>
+                <div class="last">
+                    <h2>Sun</h2>
+                    <img src="/lesson5/images/cloud.png" alt="cloudy">
+                    <p>64°F</p>
+                </div>
+            </div>
+        </div>
+        <div class="article">
+
+            <img class="roofer" src="/lesson5/images/roofer.jpg" alt="roofer">
+            <h2>What Conditions Are Good For Roofing?</h2>
+            <p>By Sean Pratt</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odit nihil doloribus nam quisquam
+                necessitatibus beatae veniam sint, praesentium consequuntur aperiam minima fugit accusantium? Earum nam
+                ab veritatis repellendus a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae
+                expedita vitae optio, impedit saepe quasi fugit, doloribus assumenda, natus in rem sit earum tenetur
+                inventore? Inventore repellendus unde id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Impedit explicabo asperiores corporis accusantium tempore obcaecati nihil, voluptatum ipsam sint
+                perspiciatis voluptates tenetur ipsum, nostrum eaque quidem, soluta corrupti totam a! Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Natus ea ut, quaerat amet eaque sint eos deserunt distinctio
+                ipsam velit tenetur minima totam numquam error modi enim nisi dolorem dicta.</p>
+        </div>
+        <div class="contact">
+            <h2>CONTACT INFORMAITON</h2>
+            <p></p>
+        </div>
+
     </main>
     <footer>
         &copy; Rain/Shine | Attributions | <a href="https://prattsbyui.github.io">Sean Pratt</a>
