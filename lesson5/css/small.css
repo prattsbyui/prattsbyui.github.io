@@ -156,11 +156,6 @@ main {
   margin: 10px auto;
   position: relative;
 }
-.fiveDayContainer {
-  max-width: auto;
-  margin: auto;
-  border-bottom: 10px solid #dadada;
-}
 
 .fiveDayForecast {
   display: flex;
