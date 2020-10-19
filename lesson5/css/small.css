@@ -107,7 +107,7 @@ p {
 main {
 
   text-align: center;
-  display: grid;
+  
   font-size: 20px;
   padding-bottom: 0px;
   max-width: 1000px;
@@ -125,9 +125,7 @@ main {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
-.contact div {
-  max-width: 760px;
-}
+
 .article {
   text-align: left;
   margin: 10px auto;
@@ -140,9 +138,9 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 .article img{
-  max-width: 400px;
+  max-width: 500px;
   float: right;
-  padding: .2em;
+  padding: .3em;
 }
 
 .article p{
@@ -157,7 +155,10 @@ main {
   margin: 10px auto;
   position: relative;
 }
-
+.fiveDayContainer{
+  margin: auto;
+  max-width: 760px;
+}
 .fiveDayForecast {
   display: flex;
   background: linear-gradient(135deg, #626262, #272727);
@@ -209,11 +210,12 @@ main a:hover {
 
 footer {
   margin: auto;
-  max-width: 760px;
+  max-width: 1000px;
   background-color: #272727;
   color: white;
   text-align: center;
-
+  padding-top: 1em;
+  padding-bottom: 1em;
 
 }
 
