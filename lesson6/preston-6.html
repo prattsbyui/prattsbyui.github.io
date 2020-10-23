@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Rain/Shine Weather Service</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Weather site plan for Sean Pratt in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    
+    <link rel="icon" type="image/png" href="/lesson6/images/site-icon.png">
+    <link rel="stylesheet" href="/lesson6/css/normalize.css">
+    <link rel="stylesheet" href="/lesson6/css/small.css">
+    <link rel="stylesheet" href="/lesson6/css/medium.css">
+    <link rel="stylesheet" href="/lesson6/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Secular+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <span id="friday">Saturday = Preston Pancakes in the Park!
+        <br>9:00 a.m. Saturday at the city park pavilion.</span>
+
+    <header>
+        <a href="/lesson6/preston-6.html"><img class="logo" src="/lesson5/images/site-icon.png"
+                alt="rain or shine logo"></a>
+        <div class="name-motto">
+            <h1>Rain/Shine</h1>
+            <p>Get the job done</p>
+        </div>
+    </header>
+    <nav>
+
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; MENU</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="/lesson6/preston-6.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+
+
+        <h1>Preston Town</h1>
+        <div class="herodiv">
+            <img src="/lesson6/images/preston-hero.jpg" alt="mountains">
+            <section class="stats">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currentWeather">Sunny</span></p>
+                <p>High: <span id="highTemp">76°F</span></p>
+                <p>Wind Chill: <span id="windChill">°F</span></p>
+                <p>Humidity: <span id="humidity">69°F</span></p>
+                <p>Wind Speed: <span id="shots">5 mph</span></p>
+            </section>
+        </div>
+        <div class="fiveDayContainer">
+            <h1>5 Day Forecast</h1>
+            <div class="fiveDayForecast">
+                <div class="first">
+                    <h2>Wed</h2>
+                    <img src="/lesson6/images/partly.png" alt="partly-cloudy">
+                    <p>76°F</p>
+                </div>
+                <div>
+                    <h2>Thur</h2>
+                    <img src="/lesson6/images/sunny.png" alt="sunny">
+                    <p>67°F</p>
+                </div>
+                <div>
+                    <h2>Fri</h2>
+                    <img src="/lesson6/images/rain.png" alt="rainy">
+                    <p>53°F</p>
+                </div>
+                <div>
+                    <h2>Sat</h2>
+                    <img src="/lesson6/images/snow.png" alt="snowy">
+                    <p>54°F</p>
+                </div>
+                <div class="last">
+                    <h2>Sun</h2>
+                    <img src="/lesson6/images/cloud.png" alt="cloudy">
+                    <p>64°F</p>
+                </div>
+            </div>
+        </div>
+        <div class="article">
+
+            <img class="roofer" src="/lesson6/images/roofer.jpg" alt="roofer">
+            <h2>What Conditions Are Good For Roofing?</h2>
+            <p>By Sean Pratt</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odit nihil doloribus nam quisquam
+                necessitatibus beatae veniam sint, praesentium consequuntur aperiam minima fugit accusantium? Earum nam
+                ab veritatis repellendus a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae
+                expedita vitae optio, impedit saepe quasi fugit, doloribus assumenda, natus in rem sit earum tenetur
+                inventore? Inventore repellendus unde id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Impedit explicabo asperiores corporis accusantium tempore obcaecati nihil, voluptatum ipsam sint
+                perspiciatis voluptates tenetur ipsum, nostrum eaque quidem, soluta corrupti totam a! Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Natus ea ut, quaerat amet eaque sint eos deserunt distinctio
+                ipsam velit tenetur minima totam numquam error modi enim nisi dolorem dicta.</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odit nihil doloribus nam quisquam
+                    necessitatibus beatae veniam sint, praesentium consequuntur aperiam minima fugit accusantium? Earum nam
+                    ab veritatis repellendus a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae
+                    expedita vitae optio, impedit saepe quasi fugit, doloribus assumenda, natus in rem sit earum tenetur
+                    inventore? Inventore repellendus unde id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit explicabo asperiores corporis accusantium tempore obcaecati nihil, voluptatum ipsam sint
+                    perspiciatis voluptates tenetur ipsum, nostrum eaque quidem, soluta corrupti totam a! Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Natus ea ut, quaerat amet eaque sint eos deserunt distinctio
+                    ipsam velit tenetur minima totam numquam error modi enim nisi dolorem dicta.</p>
+
+        </div>
+        <div class="contact">
+       
+            <p>&#9993; rain/shine@email.com</p>
+            <p>&#9742; 210-793-1396</p>
+            <p>&#10140; 135 S 1st E, Rexburg, ID 83440</p>
+      </div>
+
+    </main>
+    <footer>
+        &copy; Rain/Shine | Attributions | <a href="https://prattsbyui.github.io">Sean Pratt</a>
+        <div><span id="currentDate"></span></div>
+    </footer>
+    <script src='/lesson6/js/date.js'></script>
+</body>
+
+</html>
