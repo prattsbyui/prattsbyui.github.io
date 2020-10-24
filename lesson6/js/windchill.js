@@ -1,6 +1,6 @@
 
-    var temp = document.getElementById('highTemp').textContent;
-    var wind = document.getElementById('windSpeed').textContent;
+    var temp = document.getElementById('highTemp').innerText;
+    var wind = document.getElementById('windSpeed').innerText;
     var wc = "N/A"
     
     if(temp <= 50 && wind >= 3){
