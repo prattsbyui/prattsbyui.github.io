@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 45em) {
 	.navigation {
 		display: flex;
 	}
@@ -16,4 +16,24 @@
 	.navigation li:first-child {
 		display: none;
 	}
+	.contact {
+        display: flex;
+        text-align: left;
+        margin: 0 auto;
+        padding: 15px;
+        background-color: #272727;
+        color: #ffde0c;
+        border-bottom: 10px solid #dadada;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+      }
+      .contact picture img{
+        display: flex;
+      width: auto;
+      
+      }
+      .contact p{
+        text-align: left;
+        padding: 7px;
+      }
 }

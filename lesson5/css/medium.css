@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45rem) {
+@media only screen and (min-width: 32.5rem) {
     .stats {
         color: #ffde0c;
         position: absolute;
@@ -11,4 +11,35 @@
         text-shadow:3px 3px 5px black;
         opacity: .9;
       }
+      .fiveDayContainer{
+        display: block;
+        margin: auto;
+        max-width: 760px;
+      }
+      .fiveDayForecast {
+        display: flex;
+        background: linear-gradient(135deg, #626262, #272727);
+        padding: 1rem .5rem;
+      }
+      
+      .fiveDayForecast div {
+        border-left: #dadada solid 2px;
+        border-right: #dadada solid 2px;
+        padding: 0;
+      }
+      
+      
+      .fiveDayForecast div p {
+        color: #ffde0c;
+        text-align: center;
+        font-size: 15px;
+      }
+      
+      
+      .fiveDayForecast div img {
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: .5rem;
+      }
+
 }
