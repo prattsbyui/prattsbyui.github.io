@@ -51,7 +51,13 @@ img {
   background: linear-gradient(135deg, #626262, #272727);
   padding: 2%;
 }
-
+.gallery p{
+  margin: 0;
+  color: #ffde0c;
+  text-align: center;
+  font-size: 30px;
+  text-shadow:3px 3px 5px black;
+}
 
 section {
 
