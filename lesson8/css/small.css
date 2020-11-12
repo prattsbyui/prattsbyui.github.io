@@ -63,7 +63,7 @@ img {
 form fieldset{
   background-color: #272727;
   color: #ffde0c;
-  width: 500px;
+  max-width: 500px;
   margin: 15px auto;
   border-radius: 5px;
   padding: 3px;
@@ -122,10 +122,7 @@ input:invalid {
 	background-color: #fdd;
 	color: #000;
 }
-input:valid {
-	background-color: #dfd;
-	color: #000;
-}
+
 section {
 
   padding: 0;
