@@ -59,6 +59,24 @@ img {
   text-shadow:3px 3px 5px black;
 }
 
+
+form fieldset{
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: left;
+}
+label{
+  display: block;
+  padding: 10px;
+}
+
+label input, select{
+  width: 275px;
+  display: block;
+}
+
 section {
 
   padding: 0;

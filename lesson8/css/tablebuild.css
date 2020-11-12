@@ -41,7 +41,9 @@ tr {
 tr:nth-child(odd) {
     background-color: #e7ffed;
 }
-
+tr:nth-child(5) td:first-child {
+    font-style: italic;
+}
 .goal {
     background-color: #628ca6;
     color: white;
