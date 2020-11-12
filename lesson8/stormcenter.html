@@ -2,11 +2,11 @@
 <html lang="en-us">
 
 <head>
-    <title>Rain/Shine Gallery</title>
+    <title>Rain/Shine Storm Center</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="Gallery for Sean Pratt in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        content="Storm Center page for Sean Pratt in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     
     <link rel="icon" type="image/png" href="/lesson8/images/site-icon.png">
     <link rel="stylesheet" href="/lesson8/css/normalize.css">
@@ -93,12 +93,19 @@
     </select>
 </label>
 <div>User In-danger Level</div>
-<label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-<label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
-<label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+<label class="danger"><input type="radio" name="danger" value="yes"> Yes</label>
+<label class="danger"><input type="radio" name="danger" value="maybe"> Maybe</label>
+<label class="danger"><input type="radio" name="danger" value="no"> No</label>
 
 </fieldset>
-
+<fieldset>
+    <legend>Additional Information (Optional)</legend>
+    <label>
+        <textarea name="additional" id="additional"
+            placeholder="Additional Info..."></textarea>
+    </label>
+</fieldset>
+<input type="submit" value="Submit Report" class="submit">
        </form>
     </main>
     <footer>
