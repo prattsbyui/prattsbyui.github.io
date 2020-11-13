@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 70em) {
 	.navigation {
 		display: flex;
 	}
@@ -16,22 +16,33 @@
 	.navigation li:first-child {
 		display: none;
   }
+  img {
+    display: flex;
+    max-width: 100%;
+  
+   
+  }
+  
   div.cards {
+   
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px; 
-    padding: 2%;
-  }
-  .cards img {
-    max-width: 400px;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
   
-  box-shadow:  1px 1px 30px black;
-    margin: 30px auto;
-    display: block;
   }
- 
-
-
+  
+  
+  .cards section{
+    display: block;
+        max-width: 500px;
+    max-height: 700px;
+    background-color: rgb(190, 158, 190);
+    border: 1px solid rgb(70, 3, 70);
+  
+  }
 	.contact {
         display: flex;
         text-align: left;

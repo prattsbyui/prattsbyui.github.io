@@ -50,7 +50,7 @@ div.cards {
 }
 
 
-section{
+.cards section{
       max-width: 500px;
   max-height: 700px;
   background-color: rgb(190, 158, 190);
