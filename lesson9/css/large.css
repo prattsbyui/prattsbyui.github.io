@@ -39,9 +39,17 @@
     display: block;
         max-width: 500px;
     max-height: 700px;
-    background-color: rgb(190, 158, 190);
+    background-color: #272727;
     border: 1px solid rgb(70, 3, 70);
   
+  }
+
+  .cards img {
+    max-width: 100%;
+  display: flex;
+  box-shadow:  1px 1px 30px black;
+    margin: 15px auto;
+    display: block;
   }
 	.contact {
         display: flex;
