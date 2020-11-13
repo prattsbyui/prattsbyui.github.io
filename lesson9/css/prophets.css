@@ -39,7 +39,7 @@ img {
   
   }
 /* Medium */
-  @media only screen and (min-width: 32em) {
+  @media only screen and (min-width: 35em) {
     div.cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -53,10 +53,13 @@ img {
         margin: 30px auto;
         display: block;
       }
-
+      main{
+        margin: 15px;
+       
+      }
 }
 /* Large */
-@media only screen and (min-width: 66em) {
+@media only screen and (min-width: 70em) {
 
   div.cards {
     display: grid;
@@ -71,5 +74,8 @@ img {
     margin: 30px auto;
     display: block;
   }
-
+  main{
+    margin: 15px;
+   
+  }
 }
