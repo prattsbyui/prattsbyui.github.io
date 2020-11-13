@@ -1,0 +1,55 @@
+@media only screen and (min-width: 45em) {
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		/* change state in small view */
+		flex: 1 1 100%;
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	.navigation li:first-child {
+		display: none;
+  }
+  div.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px; 
+    padding: 2%;
+  }
+  .cards img {
+    max-width: 400px;
+  
+  box-shadow:  1px 1px 30px black;
+    margin: 30px auto;
+    display: block;
+  }
+ 
+
+
+	.contact {
+        display: flex;
+        text-align: left;
+        margin: 0 auto;
+        padding: 15px;
+        background-color: #272727;
+        color: #ffde0c;
+        border-bottom: 10px solid #dadada;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+      }
+      .contact picture img{
+        display: flex;
+      width: auto;
+      
+      }
+      .contact p{
+        text-align: left;
+        padding: 7px;
+      }
+}

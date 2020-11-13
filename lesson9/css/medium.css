@@ -1,0 +1,16 @@
+@media only screen and (min-width: 32.5rem) {
+  div.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px; 
+    padding: 2%;
+  }
+  .cards img {
+    display: flex;
+    max-width: 100%;
+  box-shadow:  1px 1px 30px black;
+    margin: 30px auto;
+  
+  }
+
+}
