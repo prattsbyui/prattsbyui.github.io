@@ -1,4 +1,4 @@
-@media only screen and (min-width: 66em) {
+@media only screen and (min-width: 57em) {
 	.navigation {
 		display: flex;
 	}
@@ -15,41 +15,6 @@
 
 	.navigation li:first-child {
 		display: none;
-  }
-  img {
-    display: flex;
-    max-width: 100%;
-  
-   
-  }
-  
-  div.cards {
-   
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-  
-  }
-  
-  
-  .cards section{
-    display: block;
-        max-width: 500px;
-    max-height: 700px;
-    background-color: #272727;
-    border: 1px solid rgb(70, 3, 70);
-  
-  }
-
-  .cards img {
-    max-width: 100%;
-  display: flex;
-  box-shadow:  1px 1px 30px black;
-    margin: 15px auto;
-    display: block;
   }
   .article img{
     max-width: 500px;
