@@ -1,0 +1,58 @@
+@media only screen and (min-width: 35rem) {
+    .stats {
+        color: #ffde0c;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        background: linear-gradient(135deg, #626262, #272727);
+        border: 1px solid #000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        text-shadow:3px 3px 5px black;
+        opacity: .9;
+      }
+      .fiveDayContainer{
+        display: block;
+        margin: auto;
+       
+      }
+      .fiveDayForecast {
+        display: flex;
+        background: linear-gradient(135deg, #626262, #272727);
+        padding: 1rem .5rem;
+          max-width: 450px;
+        justify-content: center;
+       margin: auto;
+      }
+      
+      .fiveDayForecast div {
+        border-left: #dadada solid 2px;
+        border-right: #dadada solid 2px;
+        padding: 0;
+     width: 20%;
+      }
+      
+      
+      .fiveDayForecast div p {
+        color: #ffde0c;
+        text-align: center;
+        font-size: 15px;
+      }
+      
+      
+      .fiveDayForecast div img {
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: .5rem;
+        
+      }
+      img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .article img{
+        max-width: 500px;
+        float: none;
+        padding: .5em;
+      }
+}
