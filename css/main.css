@@ -41,6 +41,10 @@ main a:hover {
   color: aqua;
 }
 
+nav {
+  padding-top: 20px;
+}
+
 footer {
   background-color: rgb(126, 30, 6);
   color: white;
