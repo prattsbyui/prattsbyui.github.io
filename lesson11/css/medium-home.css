@@ -30,8 +30,8 @@
     display: block;
   }
   .article img{
-    max-width: 500px;
-    float: none;
+    max-width: 400px;
+    float: right;
     padding: .5em;
   }
 }

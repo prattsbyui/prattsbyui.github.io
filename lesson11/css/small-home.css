@@ -136,6 +136,7 @@ main {
   margin: 10px auto;
   padding: 15px;
   max-width: 1000px;
+  max-height: max-content;
   background-color: #272727;
   color: #ffde0c;
   border-bottom: 10px solid #dadada;
@@ -143,8 +144,8 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 .article img{
-  max-width: 500px;
-  float: right;
+  max-width: 400px;
+  float: none;
   
 }
 
@@ -196,7 +197,12 @@ h3{
   color: #dadada;
   text-shadow:3px 3px 5px black;
 }
-
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15pt;
+  color: #dadada;
+  text-shadow:3px 3px 5px black;
+}
 footer {
   margin: auto;
   max-width: 1000px;
