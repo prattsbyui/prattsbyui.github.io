@@ -12,6 +12,7 @@ fetch(requestURL)
         let article = document.createElement("div")
         let h2 = document.createElement("h2");
         let motto = document.createElement("h3");
+        let infohead = document.createElement("h4");
         let eventhead = document.createElement("h4");
         let event1 = document.createElement("p");
         let event2 = document.createElement("p");
@@ -30,7 +31,8 @@ fetch(requestURL)
         founded.textContent = "Year Founded: " + towns[i].yearFounded;
         population.textContent = "Current Population: " + towns[i].currentPopulation;
         rain.textContent = "Average Rainfall: " + towns[i].averageRainfall;
-eventhead.textContent = "Events"
+        eventhead.textContent = "Local Events"
+        infohead.textContent = "Info"
         
 
         image.setAttribute("src", "/lesson11/images/" + towns[i].photo);
@@ -38,6 +40,7 @@ eventhead.textContent = "Events"
 
         article.appendChild(h2);
         article.appendChild(motto);
+        article.appendChild(infohead);
         article.appendChild(founded);
         article.appendChild(population);
         article.appendChild(rain);
