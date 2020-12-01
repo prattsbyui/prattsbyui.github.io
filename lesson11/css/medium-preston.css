@@ -18,16 +18,14 @@
       }
       .fiveDayForecast {
         display: flex;
-        background: linear-gradient(135deg, #626262, #272727);
+        background-color: #272727;
         padding: 1rem .5rem;
-          max-width: 450px;
+          max-width: 600px;
         justify-content: center;
        margin: auto;
       }
       
       .fiveDayForecast div {
-        border-left: #dadada solid 2px;
-        border-right: #dadada solid 2px;
         padding: 0;
      width: 20%;
       }
@@ -41,8 +39,8 @@
       
       
       .fiveDayForecast div img {
-        margin-left: 0;
-        margin-right: 0;
+        max-width: 60px;
+        margin: auto;
         padding-bottom: .5rem;
         
       }
@@ -50,6 +48,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
       }
+
+
+
       .article img{
         max-width: 500px;
         float: none;

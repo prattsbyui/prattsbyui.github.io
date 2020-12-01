@@ -115,7 +115,20 @@ main {
   margin: 0 auto;
 
 }
+.events div {
+       
+  background-color: #272727;
+  padding: 1rem .5rem;
+  max-width: 500px;
+ margin: auto;
+}
 
+.events p {
+
+  padding: 10px;
+
+
+ }
 .contact {
   
   text-align: left;
@@ -185,12 +198,12 @@ h2 {
 .stats {
   color: #ffde0c;
   position: relative;
-  background: linear-gradient(135deg, #626262, #272727);
+  background-color: #272727;
   border: 1px solid #000;
   padding: 1.5rem;
   box-shadow: 0 0 30px #111;
   text-shadow:3px 3px 5px black;
-  opacity: .9;
+
 }
 
 .stats h2{
