@@ -4,7 +4,7 @@ fetch(forecastapiURL)
   .then((response) => response.json())
   .then((jsObject) => {
    
-    console.log(jsObject.list.filter(x => x.dt_txt.includes('12:00:00')));
+   
 const forecast = jsObject.list.filter(x => x.dt_txt.includes('12:00:00'));
 
 
