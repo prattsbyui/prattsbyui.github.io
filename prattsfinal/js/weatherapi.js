@@ -2,7 +2,7 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=20.5083&lon=
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-  
+    console.log(jsObject);
 document.getElementById('current-temp').textContent = jsObject.weather[0].description;
 document.getElementById('max-temp').textContent = Math.round(jsObject.main.temp);
 document.getElementById('humidity').textContent = jsObject.main.humidity;

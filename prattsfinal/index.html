@@ -27,7 +27,7 @@
     <nav>
         <ul class="navigation">
             <li><a class="ham" href="#">&#9776; MENU</a></li>
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Rentals</a></li>
             <li><a href="#">Reservations</a></li>
             <li><a href="#">Tours</a></li>
@@ -35,8 +35,8 @@
         </ul>
     </nav>
 
-    <main>         
-           <div class="herodiv">
+    <main>
+        <div class="herodiv">
             <section class="call-to-action"><a class="ham" href="#">
                     <h2>RENT A</h2>
                     <h2>SCOOTER!</h2>
@@ -123,35 +123,58 @@
                 </table>
             </div>
         </div>
-<div class="weather-summary">
-    <h2>Weather Summary</h2>
-    <p><span id="current-temp"></span></p>
-    <p>Current Temp: <span id="max-temp"></span>&deg; F</p>
-    <p>Humidity: <span id="humidity"></span>%</p>
-    <p>Wind Speed: <span id="wind-speed"></span> mph</p>
-</div>
-<div class="fiveDayContainer">
-    <h1>3 Day Forecast</h1>
-    <div class="fiveDayForecast">
-        <div class="first">
-            <h2><span id="day1">Mon</span></h2>
-            <img id="icon1" src="/prattsfinal/images/sunny.png" alt="">
-            <p><span id="temp1"></span>&deg; F</p>
+        <div class="weather-box">
+            <div class="weather-summary">
+                <h1>Today's Weather</h1>
+                <p>Conditions: <span id="current-temp"></span></p>
+                <p>Current Temp: <span id="max-temp"></span>&deg; F</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+            </div>
+            <div class="three-day-container">
+                <h1>3 Day Forecast</h1>
+                <div class="three-day-Forecast">
+                    <div class="first">
+                        <h2><span id="day1">Mon</span></h2>
+                        <img id="icon1" src="/prattsfinal/images/sunny.png" alt="">
+                        <p><span id="temp1"></span>&deg; F</p>
+                    </div>
+                    <div>
+                        <h2><span id="day2">Tue</span></h2>
+                        <img id="icon2" src="/prattsfinal/images/sunny.png" alt="">
+                        <p><span id="temp2"></span>&deg; F</p>
+                    </div>
+                    <div>
+                        <h2><span id="day3">Wed</span></h2>
+                        <img id="icon3" src="/prattsfinal/images/sunny.png" alt="">
+                        <p><span id="temp3"></span>&deg; F</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <h2><span id="day2">Tue</span></h2>
-            <img id="icon2" src="/prattsfinal/images/sunny.png" alt="">
-            <p><span id="temp2"></span>&deg; F</p>
         </div>
-        <div>
-            <h2><span id="day3">Wed</span></h2>
-            <img id="icon3" src="/prattsfinal/images/sunny.png" alt="">
-            <p><span id="temp3"></span>&deg; F</p>
+        <h1>Contact Us!</h1>
+        <div class="contact">
+           
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.7410313394!2d-86.97695068460301!3d20.47582701179865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sPuerta%20Maya%20Cruise%20Ship%20Terminal!5e0!3m2!1sen!2sus!4v1608063110542!5m2!1sen!2sus"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe> 
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7619.213743809609!2d-86.94979151382228!3d20.50794604954727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1sen!2sus!4v1608062939341!5m2!1sen!2sus"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            
+                <p>&#9993; scootrental@email.com</p>
+            <p>&#9742; 210-793-1396</p>
+            <p>&#10140; 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+            <div class="social">
+                <a href="https://www.facebook.com"><img src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png" alt="facebook icon"></a>
+                <a href="https://www.twitter.com"><img src="https://byui-cit.github.io/wdd130/images/icons/color/twitter.png" alt="twitter icon"></a>
+                <a href="https://www.pinterest.com"><img src="https://byui-cit.github.io/wdd130/images/icons/color/pinterest.png" alt="pinterest icon"></a>
+            </div> 
         </div>
-
-    </div>
-</div>
-
+        </div>
     </main>
     <footer>
         &copy; Scoot | Attributions | <a href="https://prattsbyui.github.io">Sean Pratt</a>

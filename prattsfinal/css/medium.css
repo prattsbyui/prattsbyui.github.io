@@ -29,43 +29,12 @@
     margin: auto;
     text-align: center
   }
-
-  .fiveDayContainer {
-    display: block;
-    text-align: center;
-    margin: auto;
-
-  }
-
-  .fiveDayForecast {
+  .weather-box{
     display: flex;
-    max-width: 700px;
-    padding: 1rem .5rem;
-    background-color: #ffffff;
+    max-width: 100%;
+    padding-top: 2%;
+    margin: 0 auto;
     justify-content: center;
-    margin: auto;
   }
 
-  .fiveDayForecast div {
-    padding: 2%;
-    border: 2px solid #2c2c2c;
-    width: 20%;
-  }
-  .fiveDayForecast div h2 {
-    text-align: center;
-    color: #912930;
-    font-size: 30px;
-  }
-
-  .fiveDayForecast div p {
-    text-align: center;
-    font-size: 30px;
-  }
-
-
-  .fiveDayForecast div img {
-    width: 100px;
-    margin: auto;
-    padding-bottom: .5rem;
-  }
 }
