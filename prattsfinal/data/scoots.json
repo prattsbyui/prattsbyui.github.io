@@ -45,7 +45,7 @@
     "MaxPersons": 4,
     "Reservation": {
         "HalfDay":50, 
-        "Full Day":70
+        "FullDay":70
      },
     "Walk-In": {
         "HalfDay": 60,
