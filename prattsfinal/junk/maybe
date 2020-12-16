@@ -1,0 +1,107 @@
+            <img class="roof" src="/prattsfinal/images/couple.jpg" alt="a young couple on a scooter">
+            <div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td colspan="6"><span><strong>Max Persons and Price Chart <span>(includes
+                                            Tax)</span></strong></span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="2"><strong>Reservation</strong></td>
+                            <td colspan="2"><strong>Walk-In</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Rental Type</strong></td>
+                            <td><strong>Max. Persons</strong></td>
+                            <td><strong>Half Day<br>(3 hrs)</strong></td>
+                            <td><strong>Full Day</strong></td>
+                            <td><strong>Half Day<br>(3 hrs)</strong></td>
+                            <td><strong>Full Day</strong></td>
+                        </tr>
+                        <tr>
+                            <td>~Honda Metro Scooter</td>
+                            <td>1</td>
+                            <td>$20</td>
+                            <td>$30</td>
+                            <td>$25</td>
+                            <td>$35</td>
+                        </tr>
+                        <tr>
+                            <td>~Honda Dio Scooter</td>
+                            <td>2</td>
+                            <td>$30</td>
+                            <td>$40</td>
+                            <td>$35</td>
+                            <td>$45</td>
+                        </tr>
+                        <tr>
+                            <td>~Honda PCX150 Scooter</td>
+                            <td>2</td>
+                            <td>$40</td>
+                            <td>$50</td>
+                            <td>$45</td>
+                            <td>$55</td>
+                        </tr>
+                        <tr>
+                            <td>Honda Pioneer ATV</td>
+                            <td>4</td>
+                            <td>$50</td>
+                            <td>$70</td>
+                            <td>$60</td>
+                            <td>$80</td>
+                        </tr>
+                        <tr>
+                            <td>Jeep Wrangler - 4 door with a/c</td>
+                            <td>5</td>
+                            <td>$70</td>
+                            <td>$100</td>
+                            <td>$85</td>
+                            <td>$125</td>
+                        </tr>
+                        <tr>
+                            <td>Jeep Wrangler - 2 door</td>
+                            <td>4</td>
+                            <td>$60</td>
+                            <td>$85</td>
+                            <td>$70</td>
+                            <td>$90</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+                        let card = document.createElement("section");
+            let part = document.createElement("div");
+
+            let picture = document.createElement("div")
+            let scooter = document.createElement("h2");
+            let simage = document.createElement("img");
+            let simageAlt = prices[i].RentalType;
+            let spersons = document.createElement("p")
+
+
+
+            part.setAttribute("class", "rental")
+            scooter.textContent = "Scooters";
+            simage.setAttribute("src", "/prattsfinal/images/" + prices[i].photo);
+            simage.setAttribute("alt", simageAlt);
+            spersons.textContent = "Max Riders: " + prices[i].MaxPersons;
+
+          
+
+            picture.appendChild(scooter);
+            picture.appendChild(simage);
+            picture.appendChild(spersons);
+
+
+            part.appendChild(picture);
+           
+         
+
+            card.appendChild(part);
+
+
+            document.querySelector("div.cards").appendChild(card);
