@@ -289,3 +289,124 @@ padding: 10px;
   max-width: 100%;
  
 }
+
+/*reservation*/
+.reservation-info {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+
+.agreement p{
+text-align: left;
+font-style: normal;
+padding: 5px;
+}
+.agreement p:before{
+  content: "~ ";
+  }
+  .agreement div{
+    margin: 0 auto;
+    max-width: 100%;
+    justify-content: right;
+    }
+    .rental-summary {
+     
+      margin: auto;
+      padding-top: 50px;
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #2c2c2c;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      text-align: center;
+      border: 1px solid rgb(184, 172, 172);
+      
+    }
+    .white {
+      background-color: #ffffff;
+    }
+    td strong {
+      font-family: 'Roboto', sans-serif;
+      color: #912930; 
+      text-shadow: 1px 1px 5px #ffffff;
+      font-size: 12pt;
+    }
+    td {
+      border: 3px solid rgb(184, 172, 172);
+      color: #ffffff;
+      padding: 5px;
+    }
+    
+form fieldset{
+  background-color: #272727;
+  color: #ffffff;
+  max-width: 500px;
+  margin: 15px auto;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: left;
+}
+legend{
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #000;
+  color: #912930;
+  padding: 10px;
+}
+label{
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+fieldset div{
+  font-family: 'Roboto', sans-serif;
+}
+label input, select{
+  display: block;
+}
+.flexly {
+	display: flex;
+	align-items: center;
+}
+#ratingvalue {
+	margin: 0 15px;
+	color: #ffffff;
+}
+
+label.danger{
+  display: flex;
+margin: 0;
+}
+label.additional{
+  max-width: 100%;
+}
+textarea{
+  width: 100%;
+  height: 300px;
+}
+
+.submit{
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #912930;
+  padding: 10px;
+  margin: 15px;
+}
+
+.submit:hover{
+  background-color: #272727;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+  margin: 15px;
+}
+
+input:invalid {
+	background-color: #fdd;
+	color: #000;
+}
+
