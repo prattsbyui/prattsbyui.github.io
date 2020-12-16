@@ -79,9 +79,6 @@ nav {
 border: 2px solid #ffffff;
 }
 
-
-
-
 /*main*/
 main{
   max-width: 100%;
@@ -234,4 +231,44 @@ footer a:hover {
 
 footer div {
   color: #ffde0c;
+}
+
+/*rental*/
+div.cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.rental {
+  display: block;
+ 
+  margin: 0 auto;
+  border: 2px solid #2c2c2c;
+}
+.rental h2{
+  font-family: 'Roboto', sans-serif;
+  height: 35px;
+  font-size: 15pt;
+}
+.rental h3{
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 15pt;
+}
+.rental div {
+  display: block;
+  margin: auto;
+padding: 10px;
+}
+.rental img {
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+ 
 }
