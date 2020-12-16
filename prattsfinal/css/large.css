@@ -18,39 +18,43 @@
 	}
 
 	.call-to-action {
-      
-        top: 200px;
-        left: 200px;
-	  }
-	  .call-to-action h2{
-        font-family: 'Ranchers', cursive;
-       font-size: 60pt;
-	  }
-	  .rental-summary {
-		max-width: 100%;
-   display: flex
-   
+
+		top: 50px;
+		left: 50px;
 	}
+
+	.call-to-action h2 {
+		font-family: 'Ranchers', cursive;
+		font-size: 60pt;
+	}
+
+	.rental-summary {
+		max-width: 100%;
+		display: flex
+	}
+
 	.rental-summary img {
 		width: 50%;
 		height: 100%;
-	
-		 }
-		 .rental-summary div {
-			width: 50%;
-			margin: auto;
-			padding-left: 20px;
-			text-align: center
-				 }
-				 div.cards {
-   
-					display: grid;
-					grid-template-columns: repeat(3, 1fr);
-					grid-gap: 10px;
-					justify-content: center;
-					align-items: center;
-					padding: 15px;
-				  
-				  }
+
+	}
+
+	.rental-summary div {
+		width: 50%;
+		margin: auto;
+		padding-left: 20px;
+		text-align: center
+	}
+
+	div.cards {
+
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 10px;
+		justify-content: center;
+		align-items: center;
+		padding: 15px;
+
+	}
 
 }

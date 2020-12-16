@@ -88,6 +88,10 @@ nav {
 border: 2px solid #ffffff;
 }
 
+.responsive li {
+  display: block;
+}
+
 /*main*/
 main{
   max-width: 100%;
@@ -95,6 +99,7 @@ main{
 }
 .call-to-action {
 text-shadow: 1px 1px 2px #2c2c2c;
+position: relative;
 text-align: center;
 text-decoration: none;
 }
@@ -106,6 +111,10 @@ font-size: 40pt;
  
   color: #912930; 
   text-decoration: none;
+}
+.herodiv {
+  
+  position: relative;
 }
 .hero-pic img {
   width: 100%;
