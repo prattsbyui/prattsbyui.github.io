@@ -20,9 +20,11 @@ fetch(requestURL)
  let reserve = document.createElement("h3");
 let rhalf = document.createElement("p")
 let rfull = document.createElement("p")
+
         let walkin = document.createElement("div")
-        
-       
+        let walk = document.createElement("h3");
+        let fhalf = document.createElement("p")
+        let ffull = document.createElement("p")
         
         let founded = document.createElement("p");
         let population = document.createElement("p");
@@ -37,6 +39,10 @@ let rfull = document.createElement("p")
         reserve.textContent = "Reservation";
 rhalf.textContent = "Half-Day(3hrs): $" + prices[i].Reservation.HalfDay;
 rfull.textContent = "Full Day: $" + prices[i].Reservation.FullDay;
+
+walk.textContent = "Walk-In";
+fhalf.textContent = "Half-Day(3hrs): $" + prices[i].WalkIn.HalfDay;
+ffull.textContent = "Full Day: $" + prices[i].WalkIn.FullDay;
            
         picture.appendChild(h2);
         picture.appendChild(image);
@@ -44,10 +50,15 @@ rfull.textContent = "Full Day: $" + prices[i].Reservation.FullDay;
 
 reservation.appendChild(reserve);
 reservation.appendChild(rhalf);
-reservation.appendChild(rfalf);
+reservation.appendChild(rfull);
+
+walkin.appendChild(walk);
+walkin.appendChild(fhalf);
+walkin.appendChild(ffull);
 
         card.appendChild(picture);
         card.appendChild(reservation)
+        card.appendChild(walkin)
      
 
         document.querySelector("div.cards").appendChild(card);

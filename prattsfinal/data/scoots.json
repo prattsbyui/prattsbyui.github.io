@@ -8,7 +8,7 @@
        "HalfDay":20, 
        "FullDay":30
     },
-   "Walk-In": {
+   "WalkIn": {
        "HalfDay": 25,
        "FullDay": 35
     }
@@ -21,7 +21,7 @@
         "HalfDay":30, 
         "FullDay":40
      },
-    "Walk-In": {
+    "WalkIn": {
         "HalfDay": 35,
         "FullDay": 45
      }
@@ -34,7 +34,7 @@
         "HalfDay":40, 
         "FullDay":50
      },
-    "Walk-In": {
+    "WalkIn": {
         "HalfDay": 45,
         "FullDay": 55
      }
@@ -47,7 +47,7 @@
         "HalfDay":50, 
         "FullDay":70
      },
-    "Walk-In": {
+    "WalkIn": {
         "HalfDay": 60,
         "FullDay": 80
      }
@@ -60,7 +60,7 @@
         "HalfDay": 70, 
         "FullDay": 100
      },
-    "Walk-In": {
+    "WalkIn": {
         "HalfDay": 85,
         "FullDay": 125
      }
@@ -73,7 +73,7 @@
         "HalfDay":60, 
         "FullDay":85
      },
-    "Walk-In": {
+    "WalkIn": {
         "HalfDay": 70,
         "FullDay": 90
      }
