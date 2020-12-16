@@ -14,7 +14,7 @@ fetch(requestURL)
             let picture = document.createElement("div")
             let h2 = document.createElement("h2");
             let image = document.createElement("img");
-            let imageAlt = prices[i].name;
+            let imageAlt = prices[i].RentalType;
             let persons = document.createElement("p")
 
             let reservation = document.createElement("div")
