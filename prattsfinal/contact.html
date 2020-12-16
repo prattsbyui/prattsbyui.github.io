@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Scoot Rental</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Final Scoot site for Sean Pratt in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="icon" type="image/png" href="/prattsfinal/images/site-icon.png">
+    <link rel="stylesheet" href="/prattsfinal/css/normalize.css">
+    <link rel="stylesheet" href="/prattsfinal/css/small.css">
+    <link rel="stylesheet" href="/prattsfinal/css/medium.css">
+    <link rel="stylesheet" href="/prattsfinal/css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="/prattsfinal/index.html"><img src="/prattsfinal/images/site-icon.png" alt="scoots logo"></a>
+        <div class="name-motto">
+            <h1>Scoots</h1>
+            <p>We Rent Scooters, and More!</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; MENU</a></li>
+            <li><a href="/prattsfinal/index.html">Home</a></li>
+            <li><a href="/prattsfinal/rental.html">Rentals</a></li>
+            <li><a href="/prattsfinal/reservation.html">Reservations</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="/prattsfinal/contact.html" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="herodiv">
+            <picture class="hero-pic">
+               <img src="/prattsfinal/images/contact.jpg" alt="rows of atv's">
+            </picture>
+        </div>
+        <form method="GET" action="/prattsfinal/thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full Name<input type="text" name="fullName" required minlength="5"></label>
+                <label>Email<input type="email" name="email" placeholder="@gmail.com" required></label>
+                        <label class="additional">
+                            <textarea name="additional" id="additional"
+                                placeholder="Comments..."></textarea>
+                        </label>
+            </fieldset>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+        <h1>Contact Us!</h1>
+        <div class="contact">
+           
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.7410313394!2d-86.97695068460301!3d20.47582701179865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sPuerta%20Maya%20Cruise%20Ship%20Terminal!5e0!3m2!1sen!2sus!4v1608063110542!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe> 
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7619.213743809609!2d-86.94979151382228!3d20.50794604954727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1sen!2sus!4v1608062939341!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            
+                <p>&#9993; scootrental@email.com</p>
+            <p>&#9742; 210-793-1396</p>
+            <p>&#10140; 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+            <div class="social">
+                <a href="https://www.facebook.com"><img src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png" alt="facebook icon"></a>
+                <a href="https://www.twitter.com"><img src="https://byui-cit.github.io/wdd130/images/icons/color/twitter.png" alt="twitter icon"></a>
+                <a href="https://www.pinterest.com"><img src="https://byui-cit.github.io/wdd130/images/icons/color/pinterest.png" alt="pinterest icon"></a>
+            </div> 
+        </div>
+       
+    </main>
+    <footer>
+        &copy; Scoot | Attributions | <a href="https://prattsbyui.github.io">Sean Pratt</a>
+        <div><span id="currentDate"></span></div>
+    </footer>
+    <script src='/prattsfinal/js/date.js'></script>
+    <script src='/prattsfinal/js/prices.js'></script>
+
+</body>
+
+</html>
