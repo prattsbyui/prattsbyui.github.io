@@ -151,9 +151,15 @@ color: #912930;
 
 }
 .weather-summary h1{
- padding-bottom: 10px;
+ padding-bottom: 20px;
 
 }
+.weather-summary p{
+font-style: normal; 
+ }
+ .weather-summary img{
+  width: 150px;
+   }
 .three-day-container {
   display: block;
   max-width: 50%;
@@ -420,4 +426,44 @@ input:invalid {
 	background-color: #fdd;
 	color: #000;
 }
+ /*tours*/
 
+ iframe.history{
+   margin: auto;
+   max-width: 100%;
+   float: left;
+   padding-right: 2%;
+   padding-bottom: 2%;
+ }
+.history p {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.history h2 {
+  margin: auto;
+}
+div.tours {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+ margin: 0 auto;
+ justify-content: center;
+ padding-top: 10px;
+ padding-bottom: 20px;
+}
+.tours img {
+  max-width: 400px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.tours div{
+  
+  margin: 0 auto;
+  padding: 20px;
+ }
+ .tours p{
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+ }

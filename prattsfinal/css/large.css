@@ -59,4 +59,13 @@
 	.reservation-info {
 		display: flex;
 	  }
+	  div.tours {max-width: 80%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		
+	   }
+	   
 }

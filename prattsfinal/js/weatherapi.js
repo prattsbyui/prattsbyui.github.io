@@ -2,11 +2,11 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=20.5083&lon=
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-  
-document.getElementById('current-temp').textContent = jsObject.weather[0].description;
+    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
 document.getElementById('max-temp').textContent = Math.round(jsObject.main.temp);
 document.getElementById('humidity').textContent = jsObject.main.humidity;
-document.getElementById('wind-speed').textContent = Math.round(jsObject.wind.speed);
+document.getElementById(`current-temp`).setAttribute('src', imagesrc);  // focus on the setAttribute() method
+document.getElementById(`current-temp`).setAttribute('alt', jsObject.weather[0].description);
 
 
   });

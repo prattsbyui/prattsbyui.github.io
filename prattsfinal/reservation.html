@@ -34,13 +34,13 @@
             <li><a href="/prattsfinal/contact.html">Contact Us</a></li>
         </ul>
     </nav>
-
-    <main>
         <div class="herodiv">
             <picture class="hero-pic">
                 <img src="/prattsfinal/images/reserved.jpg" alt="reserved sign on a desk">
             </picture>
         </div>
+    <main>
+
         <div class="reservation-info">
             <div class="agreement">
                 <h1>Retal Terms & Conditions</h1>
@@ -139,6 +139,7 @@
                 <label>State/Country<input type="text" name="home" placeholder="Texas" required></label>
                 <label for="agree">I agree to the above conditions<input type="checkbox" name="agree" id="agree"
                         value="yes agree" required></label>
+                        <label for="fname">Accepted Cards</label>
             </fieldset>
 
             <fieldset>
@@ -154,6 +155,16 @@
                         <option value="Puerta Maya">Puerta Maya</option>
                         <option value="Playa Ferry">Playa Ferry</option>
                         <option value="Drop-off">Request Drop-off</option>
+                    </select>
+                </label>
+                <label>Payment
+                    <select name="Payment">
+                        <option value="">Pay With</option>
+                        <option value="GPay">GPay</option>
+                        <option value="Cash">Cash</option>
+                        <option value="Credit">Credit</option>
+                        <option value="Debit">Debit</option>
+                        <option value="PayPal">PayPal</option>
                     </select>
                 </label>
                 <div>Period</div>
